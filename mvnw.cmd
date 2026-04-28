@@ -69,7 +69,6 @@ switch -wildcard -casesensitive ( $($distributionUrl -replace '^.*/','') ) {
     break
   }
 }
-
 # apply MVNW_REPOURL and calculate MAVEN_HOME
 # maven home pattern: ~/.m2/wrapper/dists/{apache-maven-<version>,maven-mvnd-<version>-<platform>}/<hash>
 if ($env:MVNW_REPOURL) {
