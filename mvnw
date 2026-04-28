@@ -87,7 +87,6 @@ hash_string() {
   done
   printf %x\\n $h
 }
-
 verbose() { :; }
 [ "${MVNW_VERBOSE-}" != true ] || verbose() { printf %s\\n "${1-}"; }
 
