@@ -165,7 +165,11 @@ if (!$actualDistributionDir) {
     if (Test-Path -Path $testPath -PathType Leaf) {
       $actualDistributionDir = $_.Name
     }
+
+
   }
+
+
 }
 if (!$actualDistributionDir) {
   Write-Error "Could not find Maven distribution directory in extracted archive"
