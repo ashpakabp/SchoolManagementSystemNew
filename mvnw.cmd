@@ -168,9 +168,7 @@ if (!$actualDistributionDir) {
       $actualDistributionDir = $_.Name
     }
 
-
   }
-
 
 }
 if (!$actualDistributionDir) {
