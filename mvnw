@@ -278,6 +278,7 @@ if [ -z "$actualDistributionDir" ]; then
   set -f
 fi
 
+
 if [ -z "$actualDistributionDir" ]; then
   verbose "Contents of $TMP_DOWNLOAD_DIR:"
   verbose "$(ls -la "$TMP_DOWNLOAD_DIR")"
