@@ -1,4 +1,2 @@
 # School Management System New
 
-
-
