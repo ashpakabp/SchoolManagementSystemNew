@@ -7,7 +7,6 @@ For further reference, please consider the following sections  :
 * [Spring Boot Maven Plugin Reference Guide](https://docs.spring.io/spring-boot/4.0.5/maven-plugin)
 * [Create an OCI image](https://docs.spring.io/spring-boot/4.0.5/maven-plugin/build-image.html)
 
-
 ### Maven Parent overrides  :
 
 Due to Maven's design, elements are inherited from the parent POM to the project POM.
