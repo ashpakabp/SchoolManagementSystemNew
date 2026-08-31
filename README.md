@@ -1,1 +1,1 @@
-/*# School Management System New
+# School Management System New
